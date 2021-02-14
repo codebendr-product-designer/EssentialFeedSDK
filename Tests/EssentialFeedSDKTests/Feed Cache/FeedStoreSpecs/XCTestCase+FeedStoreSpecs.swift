@@ -3,7 +3,7 @@
 //
 
 import XCTest
-import EssentialFeed
+import EssentialFeedSDK
 
 extension FeedStoreSpecs where Self: XCTestCase {
 	

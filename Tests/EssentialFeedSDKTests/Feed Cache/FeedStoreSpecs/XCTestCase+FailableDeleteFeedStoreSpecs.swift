@@ -3,7 +3,7 @@
 //
 
 import XCTest
-import EssentialFeed
+import EssentialFeedSDK
 
 extension FailableDeleteFeedStoreSpecs where Self: XCTestCase {
 	func assertThatDeleteDeliversErrorOnDeletionError(on sut: FeedStore, file: StaticString = #file, line: UInt = #line) {

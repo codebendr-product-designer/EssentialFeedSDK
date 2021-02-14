@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import EssentialFeed
+import EssentialFeedSDK
 
 class FeedStoreSpy: FeedStore {
 	enum ReceivedMessage: Equatable {
