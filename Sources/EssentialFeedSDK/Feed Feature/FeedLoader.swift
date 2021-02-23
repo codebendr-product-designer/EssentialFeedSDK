@@ -4,8 +4,7 @@
 
 import Foundation
 
+public typealias FeedLoaderResult = Swift.Result<[FeedImage], Error>
 public protocol FeedLoader {
-    public typealias Result = Swift.Result<[FeedImage], Error>
-	
-	func load(completion: @escaping (Result) -> Void)
+	func load(completion: @escaping (FeedLoader) -> Void)
 }
